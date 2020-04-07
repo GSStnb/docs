@@ -126,23 +126,14 @@ Drawing Tools Toolbars
         | |tlbar19|"
 
 
-.. _tool-options:
-
-Tool Options
-------------
-
-A variety of LibreCAD's tools require additional parameters or have options that are shown on the **Tool Options** toolbar.  Several drawing tools use tool options.  Those toolbars are shown in the :ref:`Drawing Tools <tools>` reference.  Two additional operations that require the use of the **Tool Options** toolbar are **Print Preview** and block operations.
-
-.. important::
-    Print Preview and Block operations require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies. Ensure the Tool Option toolbar is enabled.
-
-The **Tool Options** toolbar should always be enabled.  If the tool options do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).  If using the :ref:`command line <cmdline>`, the same tool options are available via a command line prompt or the **Tool Options** toolbar.
-
-
 .. _page-preview-toolopt:
 
-Print Preview Tool Options
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Print Preview Toolbar
+---------------------
+
+.. important::
+
+    **Print Preview** requires the use of the **Tool Options** toolbar as there are no menu or command line equivalencies.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the **Print Preview** toolbar does not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
 
 The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
 
@@ -173,8 +164,12 @@ The **Print Preview Tool Options** toolbar is used to set up the print output re
 
 .. _blk-insert-toolopt:
 
-Block Operations Tool Options
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Block Operations Toolbars
+-------------------------
+
+.. important::
+
+    There are two toolbars for block operations that require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the block toolbars do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
 
@@ -227,6 +222,16 @@ Inserting a block from a library can be enhanced through the *Tool Option* bar f
     "Option Item", "Description"
     "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
     "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+
+
+.. _tool-options:
+
+Tool Options
+------------
+
+A variety of LibreCAD's drawing tools have options or require additional parameters that are shown on the **Tool Options** toolbar.  Those toolbars are shown in the :ref:`Drawing Tools <tools>` reference.
+
+
 
 
 ..  Icon mapping:
