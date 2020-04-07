@@ -14,8 +14,8 @@ Toolbars provide an alternative to the menus for accessing application functions
 Toolbars can be moved any where on the display and left floating, or docked to any of the four sides of the drawing window, similar to :ref:`Dock Widgets <widgets>`.  Unlike Dock Widgets, icons on a Toolbar are a single row when floating or docked to the top or bottom of the drawing window and verticle when docked to either side.  Also, Toolbars cannot be resized.
 
 
-Drawing Tools Toolbars
-----------------------
+Drawing Tools
+-------------
 
 .. csv-table:: 
     :widths: 20, 80
@@ -128,12 +128,12 @@ Drawing Tools Toolbars
 
 .. _page-preview-toolopt:
 
-Print Preview Toolbar
----------------------
+Print Preview
+-------------
 
 .. important::
 
-    **Print Preview** requires the use of the **Tool Options** toolbar as there are no menu or command line equivalencies.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the **Print Preview** toolbar does not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
+    **Print Preview** requires the use of the **Tool Options** toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the **Print Preview** toolbar does not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
 
 The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
 
@@ -164,12 +164,12 @@ The **Print Preview Tool Options** toolbar is used to set up the print output re
 
 .. _blk-insert-toolopt:
 
-Block Operations Toolbars
--------------------------
+Block Operations
+----------------
 
 .. important::
 
-    There are two toolbars for block operations that require the use of the **Tool Options** toolbar as there are no menu or command line equivalencies.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the block toolbars do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
+    There are two toolbars for block operations that require the use of a toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the block toolbars do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
 
 There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
 
