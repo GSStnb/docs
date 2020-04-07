@@ -59,7 +59,7 @@ Opening the print preview window also displays the **Print Preview Tool Options*
     :alt: Print Preview Toolbar
 .. actual image size 388px x 35px
 
-More details for :ref:`Print Preview Tool Options <print-preview-toolopt>` can be found in the **Reference** / **Toolbars / Tool Options** section.
+More details for :ref:`Print Preview Tool Options <toolbar-page-preview>` can be found in the **Reference** / **Toolbars / Tool Options** section.
 
 The print preview window shows the virtual page as a white rectangle with a black border and a drop shadow.  The black border represents the paper format and orientation as it is configured on the "Paper" tab of the :ref:`Drawing Preferences <draw-prefs>`.  If margins are specified on the "Paper" tab, they are shown as a dark grey border.
 

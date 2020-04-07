@@ -14,6 +14,106 @@ Toolbars provide an alternative to the menus for accessing application functions
 Toolbars can be moved any where on the display and left floating, or docked to any of the four sides of the drawing window, similar to :ref:`Dock Widgets <widgets>`.  Unlike Dock Widgets, icons on a Toolbar are a single row when floating or docked to the top or bottom of the drawing window and verticle when docked to either side.  Also, Toolbars cannot be resized.
 
 
+.. _toolbar-page-preview:
+
+Print Preview
+-------------
+
+.. important::
+
+    **Print Preview** requires the use of the **Tool Options** toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the **Print Preview** toolbar does not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
+
+The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
+
+
+.. figure:: /images/toolOptions/toPrintPreview.png
+    :width: 316px
+    :height: 35px
+    :align: center
+    :scale: 100
+    :alt:  Print Preview tool option bar
+
+
+.. csv-table:: 
+    :widths: 20, 10, 70
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+    
+    "Option Item", "Icon", "Description"
+    "Scale", , "Displays the current scale of the drawing.  The scale can also be changed to a predefined value selected from the drop-down list, or entered as a custom ratio."
+    "”fixed”", , "Checking the ”fixed” checkbox locks the scale to value shown in the text-box."
+    "Apply Print Scale to line width", |icon01|, "When enabled, line width is scaled on *reduced* drawings (drawings reduced in size to fit a smaller page)."
+    "Toggle Black/White", |icon02|, "Toggles the colors of all entities from color to black/white."
+    "Center to page", |icon03|, "Centers the drawing and paper to the Print Preview window."
+    "Fit to page", |icon04|, "Fits the drawing to the margins of the paper and centers page to the Print Preview window. (Not available when ”fixed” is selected.)"
+    "Multipages", |icon05|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
+
+
+.. _toolbar-blk-insert:
+
+Block Operations
+----------------
+
+.. important::
+
+    There are two toolbars for block operations that require the use of a toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the block toolbars do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
+
+There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
+
+
+From Block List
+```````````````
+
+The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
+
+.. figure:: /images/toolOptions/toBlockInsert.png
+    :width: 617px
+    :height: 34px
+    :align: center
+    :scale: 100
+    :alt: Block insert tool option bar
+
+
+.. csv-table:: 
+    :widths: 20, 80
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+    
+    "Option Item", "Description"
+    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
+    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+    "Array", "Defines the numbers of columns and rows to create a pattern of selected block. Otherwise keep 1 for columns and rows."
+    "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
+
+
+From Block Library
+``````````````````
+
+Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
+
+.. figure:: /images/toolOptions/toBlockLib.png
+    :width: 317px
+    :height: 33px
+    :align: center
+    :scale: 100
+    :alt: Block from library insertion tool option bar
+
+
+.. csv-table:: 
+    :widths: 20, 80
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+    
+    "Option Item", "Description"
+    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
+    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
+
+
+.. _toolbar-dwg-tools:
+
 Drawing Tools
 -------------
 
@@ -126,105 +226,7 @@ Drawing Tools
         | |tlbar19|"
 
 
-.. _page-preview-toolopt:
-
-Print Preview
--------------
-
-.. important::
-
-    **Print Preview** requires the use of the **Tool Options** toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the **Print Preview** toolbar does not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
-
-The **Print Preview Tool Options** toolbar is used to set up the print output regardless of output format (pdf or paper). The toolbar is displayed after clicking the **Print Preview** icon |icon00| or selecting **File -> Print Preview** from the menu.  A combination of scale value, color status and drawing position relative to paper allows for customized print output. The steps are detailed in :ref:`printing guide <complete&print>`.
-
-
-.. figure:: /images/toolOptions/toPrintPreview.png
-    :width: 316px
-    :height: 35px
-    :align: center
-    :scale: 100
-    :alt:  Print Preview tool option bar
-
-
-.. csv-table:: 
-    :widths: 20, 10, 70
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-    
-    "Option Item", "Icon", "Description"
-    "Scale", , "Displays the current scale of the drawing.  The scale can also be changed to a predefined value selected from the drop-down list, or entered as a custom ratio."
-    "”fixed”", , "Checking the ”fixed” checkbox locks the scale to value shown in the text-box."
-    "Apply Print Scale to line width", |icon01|, "When enabled, line width is scaled on *reduced* drawings (drawings reduced in size to fit a smaller page)."
-    "Toggle Black/White", |icon02|, "Toggles the colors of all entities from color to black/white."
-    "Center to page", |icon03|, "Centers the drawing and paper to the Print Preview window."
-    "Fit to page", |icon04|, "Fits the drawing to the margins of the paper and centers page to the Print Preview window. (Not available when ”fixed” is selected.)"
-    "Multipages", |icon05|, "Determines the number of pages needed to print the drawing based on the defined scale and the paper size selected in *Drawing Preferences*."
-
-
-.. _blk-insert-toolopt:
-
-Block Operations
-----------------
-
-.. important::
-
-    There are two toolbars for block operations that require the use of a toolbar as there are no menu or command line equivalencies for the options.  *Ensure the* **Tool Options** *toolbar is enabled.*  If the block toolbars do not appear, from the menu select **Widgets -> Toolbar** and enable **Tool Options** (place checkmark in checkbox).
-
-There are two block insert operations with corresponding Tool Option toolbars.  For further details on using blocks refer to :ref:`Blocks <blocks>` in the User Guides.
-
-
-From Block List
-```````````````
-
-The **Block Insert** capability can be expanded through the *Tool Option* bar features before the block is inserted. 
-
-.. figure:: /images/toolOptions/toBlockInsert.png
-    :width: 617px
-    :height: 34px
-    :align: center
-    :scale: 100
-    :alt: Block insert tool option bar
-
-
-.. csv-table:: 
-    :widths: 20, 80
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-    
-    "Option Item", "Description"
-    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
-    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
-    "Array", "Defines the numbers of columns and rows to create a pattern of selected block. Otherwise keep 1 for columns and rows."
-    "Spacing", "Defines the distance between each column of the array and the distance between each row. The distance is measured between 2 insertion points of 2 adjacent blocks."
-
-
-From Block Library
-``````````````````
-
-Inserting a block from a library can be enhanced through the *Tool Option* bar features before the block is inserted.
-
-.. figure:: /images/toolOptions/toBlockLib.png
-    :width: 317px
-    :height: 33px
-    :align: center
-    :scale: 100
-    :alt: Block from library insertion tool option bar
-
-
-.. csv-table:: 
-    :widths: 20, 80
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-    
-    "Option Item", "Description"
-    "Angle", "Defines the angle of rotation, if any. See :ref:`Angles in LibreCAD <fundamentals>`."
-    "Factor", "Defines the scale factor, if any. It is the same scale factor as in :ref:`Modify <tools>`."
-
-
-.. _tool-options:
+.. _toolbar-tool-options:
 
 Tool Options
 ------------
