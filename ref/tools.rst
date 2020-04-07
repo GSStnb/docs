@@ -9,11 +9,13 @@
 Drawing Tools
 =============
 
-The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <cmdline>`. Right-click anywhere in the drawing window to display a popup menu showing the history of commands launched from the menus or the toolbars with the latest command being on top of the list. Note that the command line input is not shown.
+The drawing tools are used to create and modify entities such as lines, circles, etc. in a drawing.  Commands can be selected from the menu, toolbars or entered via the :ref:`command line <cmdline>`.  Right-click anywhere in the drawing window to display a popup menu showing the history of tools used from the menus or the toolbars with the most recent tool being on top of the list.  The command line input is not shown in the history.
+
+Several drawing tools have options or require additional parameters that appear on the **Tool Options** toolbar.  The **Tool Options** toolbars are shown in the table below.  If using the :ref:`command line<widget-cmdLine>`, the same tool options are available via the toolbar or the command line.
 
 .. important::
 
-    Several drawing tools have options or require additional parameters.  The  options or parameters appear on the **Tool Options** toolbar.  The tools that have **Tool Options** toolbars are shown in the table below.  *The* **Tool Options** *toolbar should always be enabled.*  If the tool options do not appear, from the menu select **Widgets -> Toolbar ->** and enable **Tool Options**.  If using the :ref:`command line<widget-cmdLine>`, the same tool options are available via the toolbar or the command line.
+    Ensure the **Tool Options** toolbar is enabled.  From the menu select **Widgets -> Toolbar ->** and enable **Tool Options**.  *The* **Tool Options** *toolbar will not appear if they are not enabled.*
 
 .. _tool-line:
 
