@@ -362,7 +362,7 @@ LibreCAD includes several commonly used line types:
     "Dash Dot", |image23|, ""
     "Divide", |image24|, "Marks location (cross) section of object."
     "Center", |image25|, "Marks center of circle, arc or any symmetrical object."
-    "Border", |image26|, "Used for drawing border around perimeter of sheet."
+    "Border", |image26|, "Used for indicating property / boundary lines."
 
 Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  As with line thickness, different types of lines are used for different purposes.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
 
