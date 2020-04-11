@@ -52,7 +52,7 @@ This manual uses screen captures of LibreCAD installed on Linux. While the image
 
 .. note::
 
-    The manual can be downloaded for off-line use.  To save a copy of manual locally from `LibreCAD's Read the Docs`  <https://librecad.readthedocs.io/>`_ web site:
+    The manual can be downloaded for off-line use.  To save a copy of manual locally from `LibreCAD's Read the Docs <https://librecad.readthedocs.io/>`_ web site:
 
         - Click the "Read the Docs" label in the lower left of the browser window.
         - In the "Downloads" section of the pop-up, click "HTML".  Save the zip file, "librecad-readthedocs-io-en-latest.zip", to a local directory.
