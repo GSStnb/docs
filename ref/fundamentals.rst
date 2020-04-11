@@ -424,9 +424,9 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 
 .. note::
 
-    When no drawing tool is active and the arrow cursor is displayed, the default action within the drawing window is *select* (See **Selecting Entities** below).
+    When no drawing tool is active, the arrow cursor |image30| is displayed and the default action within the drawing window is *select* (See **Selecting Entities** below).
 
-    When a :ref:`drawing tool <tools>` is active, a small crosshair cursor is displayed.
+    When a :ref:`drawing tool <tools>` is active, a small crosshair cursor |image31| is displayed.  "Snap indicator lines" can also be configured in the :ref:`Application Preferences <app-prefs>` to make the cursor more visible.
 
 
 .. _keyboard:
@@ -607,3 +607,13 @@ See :ref:`Drawing an Isometric View <dwg-isometric>` in **Drawing and Editing** 
              :height: 20
              :scale: 100
              :alt: Border
+.. |image30| image:: /images/cursorPointer.png
+             :width: 40
+             :height: 40
+             :scale: 100
+             :alt: Pointer cursor
+.. |image31| image:: /images/cursorCrosshair.png
+             :width: 40
+             :height: 40
+             :scale: 100
+             :alt: Crosshair cursor
