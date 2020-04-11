@@ -255,7 +255,7 @@ Select
 
 .. note::
 
-    When no drawing tool is active, the default action is to select a single entity or **Select Window**. See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on select and deselecting entities.
+    When no drawing tool is active, the default [Left Button] mouse action is to select a single entity or **Select Window**.  See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on select and deselecting entities.
 
 
 .. csv-table:: 
@@ -265,16 +265,16 @@ Select
     :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
-    "Deselect all", |icon59|, "tn", "
-        | Deselect all entities on visible layers ([Ctrl]-[K] or **default [Esc] action**)."
-    "Select All", |icon58|, "sa", "
-        | Select all entities on visible layers ([Ctrl]-[A])."
+    "Deselect all", |icon59|, "tn / [Ctrl]-[K] or [Esc]", "
+        | Deselect all entities on visible layers."
+    "Select All", |icon58|, "sa / [Ctrl]-[A]", "
+        | Select all entities on visible layers."
     "Select Entity", |icon51|, "", "
-        | Select, or deselect, one or more entities (**default cursor action**)."
+        | Select, or deselect, one or more entities (**default action with mouse pointer**)."
     "(De-)Select Contour", |icon54|, "", "
         | Select or deselected entities connected by shared points."
     "Select Window", |icon52|, "", "
-        | Select one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L) (**default cursor action**)."
+        | Select one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L) (**default action with mouse pointer**)."
     "Deselect Window", |icon53|, "", "
         | Deselect one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L)."
     "Select Intersected Entities", |icon55|, "", "
