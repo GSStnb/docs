@@ -441,7 +441,7 @@ LibreCAD offers an additional method for entering *relative coordinates* when us
 Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 
 
-.. _entity-select::
+.. _entity-select:
 
 Selecting Entities
 ~~~~~~~~~~~~~~~~~~
