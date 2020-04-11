@@ -441,6 +441,8 @@ LibreCAD offers an additional method for entering *relative coordinates* when us
 Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 
 
+.. _entity-select::
+
 Selecting Entities
 ~~~~~~~~~~~~~~~~~~
 
@@ -453,6 +455,7 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
 
             - Click [Left Button] and drag the selection window left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).  Click the [Left Button] again to complete the selection.
             - Click [Left Button] and drag the selection window right to left while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box).  Click the [Left Button] again to complete the selection.
+            - Hold the [Shift] key while while performing the above actions to deselect.
 
     - From the command line:
 
