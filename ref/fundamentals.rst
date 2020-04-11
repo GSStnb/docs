@@ -366,7 +366,7 @@ LibreCAD includes several commonly used line types:
 
 Other than ”Continuous”, the other non-continuous lines are available in default, ”tiny” (1/6x default), ”small” (1/2x) and ”large (2x)”.  As with line thickness, different types of lines are used for different purposes.  A complete list of :ref:`line types <lineTypes>` are shown in the appendix.
 
-.. Note::
+.. note::
    Intervals for non-continuous line types with white spaces remain constant when scaled.  ”Tiny” should be used in most cases.
 
 
@@ -420,7 +420,14 @@ There are two methods for defining coordinates when drawing entities in LibreCAD
 Using a Mouse
 `````````````
 
-Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.  
+Entities' coordinates can also be located graphically using a mouse or other pointing device.  Using a mouse is less precise, but may be acceptable for rough sketches or other freehand work.  However, the accuracy of using a mouse can be enhanced through the use of :ref:`snaps <snaps>`.
+
+.. note::
+
+    When no drawing tool is active and the arrow cursor is displayed, the default action within the drawing window is *select* (See **Selecting Entities** below).
+
+    When a :ref:`drawing tool <tools>` is active, a small crosshair cursor is displayed.
+
 
 .. _keyboard:
 
@@ -433,20 +440,24 @@ LibreCAD offers an additional method for entering *relative coordinates* when us
 
 Text input may also be required for **Tool Options** where distance, angle, etc. are needed with some of the **Drawing Tools**.
 
+
 Selecting Entities
 ~~~~~~~~~~~~~~~~~~
 
 Selecting entities allow them to be modified or deleted.  Some operations can be applied to groups of selected entities and other can only be applied to one entity at a time.  There are a variety of ways that entities can be selected:
 
-   - Single click on an entity.  Holding the [Shift] key while clicking will allow additional entities to be selected.
-   - Click and drag a selection box:
+    - Using the mouse:
 
-      - Left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
-      - Right to left  while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+        - [Left Button] click on one or more entities to select or deselect.
+        - Click [Left Button] and "Select Window" (selection box):
 
-   -  type “sa” at the command line to select all entities.
+            - Dragging left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
+            - Dragging right to left while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
 
-Deselect selected entities by typing “tn” at the command line or pressing [Esc].  Note that it might be might be necessary to press [Esc] twice if a command it active.
+    - From the command line:
+
+        - Type “sa” at the command line to select all entities.
+        - Deselect selected entities by pressing [Esc] or typing “tn” at the command line.  Note that it might be might be necessary to press [Esc] twice if a command it active.
 
 Also see the :ref:`Select<tool-select>` tools for additional methods to select and deselect entities.
 

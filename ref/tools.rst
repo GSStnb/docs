@@ -253,6 +253,14 @@ Polyline
 Select
 ------
 
+.. note::
+
+    When no drawing tool is active, the default action is "Select Window".  Single or multiple entities can be selected by clicking on them or select multiple entities by:
+
+        - Dragging left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
+        - Dragging right to left while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+        - [Shift]-[Right Click] and drag to deselect.
+
 .. csv-table:: 
     :widths: 15, 7, 15, 63
     :header-rows: 1
