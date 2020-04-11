@@ -50,6 +50,15 @@ The manual is best viewed with a minimum screen width of about 1100 pixels to di
 
 This manual uses screen captures of LibreCAD installed on Linux. While the images may appear slightly different on Windows or MacOS, the application layout and menu commands will be the same.
 
+.. note::
+
+    The manual can be downloaded for off-line use.  To save a copy of manual locally from `LibreCAD's Read the Docs`  <https://librecad.readthedocs.io/>`_ web site:
+
+        - Click the "Read the Docs" label in the lower left of the browser window.
+        - In the "Downloads" section of the pop-up, click "HTML".  Save the zip file, "librecad-readthedocs-io-en-latest.zip", to a local directory.
+        - When the download is finished, open the zip file and extract the contents to a local directory.  The **User Manual** is in a directory named "librecad-latest".
+        - Locate "index.html" in the "librecad-latest" directory and open it in a browser.
+
 
 Conventions
 ~~~~~~~~~~~
