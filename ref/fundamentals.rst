@@ -449,10 +449,10 @@ Selecting entities allow them to be modified or deleted.  Some operations can be
     - Using the mouse:
 
         - [Left Button] click on one or more entities to select or deselect.
-        - Click [Left Button] and "Select Window" (selection box):
+        - Use the "Select Window" (selection box):
 
-            - Dragging left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).
-            - Dragging right to left while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box)
+            - Click [Left Button] and drag the selection window left to right while moving down or up to select entities enclosed within the selection window’s boundary (blue selection box).  Click the [Left Button] again to complete the selection.
+            - Click [Left Button] and drag the selection window right to left while moving down or up to select entities enclosed within the window’s boundary and crossed by the selection boundary (green selection box).  Click the [Left Button] again to complete the selection.
 
     - From the command line:
 
