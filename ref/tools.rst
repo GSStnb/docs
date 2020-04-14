@@ -255,7 +255,11 @@ Select
 
 .. note::
 
-    When no drawing tool is active, the default [Left Button] mouse action is to select a single entity or **Select Window**.  See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on select and deselecting entities.
+    When no drawing tool is active, the default [Left Button] mouse action is to:
+        - Select/deselect one or more entities by clicking on them, or
+        - Select multiple entities with a window.  See **Select Window** below.
+
+    See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on select and deselecting entities.
 
 
 .. csv-table:: 
@@ -270,11 +274,11 @@ Select
     "Select All", |icon58|, "sa / [Ctrl]-[A]", "
         | Select all entities on visible layers."
     "Select Entity", |icon51|, "", "
-        | Select, or deselect, one or more entities (**default action with mouse pointer**)."
+        | Select, or deselect, one or more entities."
     "(De-)Select Contour", |icon54|, "", "
         | Select or deselected entities connected by shared points."
     "Select Window", |icon52|, "", "
-        | Select one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L) (**default action with mouse pointer**)."
+        | Select one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L)."
     "Deselect Window", |icon53|, "", "
         | Deselect one or more entities enclosed by selection window (L to R), or crossed by selection window (R to L)."
     "Select Intersected Entities", |icon55|, "", "

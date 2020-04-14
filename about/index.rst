@@ -50,7 +50,7 @@ The manual is best viewed with a minimum screen width of about 1100 pixels to di
 
 This manual uses screen captures of LibreCAD installed on Linux. While the images may appear slightly different on Windows or MacOS, the application layout and menu commands will be the same.
 
-.. note::
+.. admonition:: Off-line User Manual
 
     The manual can be downloaded for off-line use.  To save a copy of manual locally from `LibreCAD's Read the Docs <https://librecad.readthedocs.io/>`_ web site:
 
