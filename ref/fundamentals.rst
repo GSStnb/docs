@@ -247,11 +247,11 @@ Angle Format
     :class: table-fix-width
 
     "Format", "Description", "Maximum Precision", "Example", "Status Bar/ Dimension", "Command Line Entry"
-	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal", "Yes", "Yes"
-	"**Deg/Min/Sec**", "30 |deg| 32' 0”", "0 |deg| 00' 00.0000”", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( ”, 1/60 of a minute)", "Yes", "No"
-	"**Gradians**", "33.9g", "0.00000000g", "1/100 of a right angle", "Yes", "No"
-	"**Radians**", "0.5r", "0.00000000r", "The arc of a circle measured in lengths of the radius", "Yes", "No"
-	"**Surveyor's units**", "N30d32'E", "N0d00'00.0000''E", "Cardinal directions measure in deg/min/sec from North and East", "Yes", "No"
+	"**Decimal Degrees**", "Integer part separated from the fractional part of a number by a decimal", "0.00000000", "30.5 |deg|", "Yes", "Yes"
+	"**Deg/Min/Sec**", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( ”, 1/60 of a minute)", "0 |deg| 00' 00.0000”", "30 |deg| 32' 0”", "Yes", "No"
+	"**Gradians**", "1/100 of a right angle", "0.00000000g", "33.9g", "Yes", "No"
+	"**Radians**", "The arc of a circle measured in lengths of the radius", "0.00000000r", "0.5r", "Yes", "No"
+	"**Surveyor's units**" "Cardinal directions measure in deg/min/sec from North and East", "N30d32'E", "N0d00'00.0000''E",, "Yes", "No"
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
