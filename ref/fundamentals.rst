@@ -251,7 +251,7 @@ Angle Format
 	"**Deg/Min/Sec**", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( ”, 1/60 of a minute)", "0 |deg| 00' 00.0000”", "30 |deg| 32' 0”", "Yes", "No"
 	"**Gradians**", "1/100 of a right angle", "0.00000000g", "33.9g", "Yes", "No"
 	"**Radians**", "The arc of a circle measured in lengths of the radius", "0.00000000r", "0.5r", "Yes", "No"
-	"**Surveyor's units**" "Cardinal directions measure in deg/min/sec from North and East", "N30d32'E", "N0d00'00.0000''E",, "Yes", "No"
+	"**Surveyor's units**", "Cardinal directions measure in deg/min/sec from North and East", "N30d32'E", "N0d00'00.0000''E", "Yes", "No"
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
