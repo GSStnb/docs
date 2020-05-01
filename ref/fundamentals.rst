@@ -208,17 +208,17 @@ As an example when using a polar coordinates, to place a point 100mm and 45 degr
 Units
 -----
 
-LibreCAD support several display formats for both linear and angular units in both metric and imperial measures.  A subset of the formats can be used when entering values on the command line as indicated in the table below.  
+LibreCAD supports several display formats for both linear and angular units, in both metric and imperial measures.  A subset of the formats can be used when entering values on the command line as indicated in the table below.  
 
 .. note::
-    Internally, LibreCAD is *measurement agnostic*. That is, it is indifferent to the unit of measure.  *One unit* of length will be one unit no matter what system measurement or unit of measure is used.  Changing the "Units" setting in :ref:`Drawing Preferences <draw_prefs>` **will not** convert a drawing to the new units of measure and retain the size of an object.  For example, changing the unit of measure from metric to imperial, or vice versa, does not convert the drawing from one system of measurment to the other.  Nor will changing the unit from metre to millimeter, or parsec to angstrom. **It only changes the way the measurements a displayed on the status bar or as dimensions.**
+    Internally, LibreCAD is *measurement agnostic*. That is, it is indifferent to the unit of measure.  *One unit* of length will be one unit no matter what system measurement or unit of measure is used.  Changing the "Units" setting in :ref:`Drawing Preferences <draw_prefs>` **will not** convert a drawing to the new units of measure and retain the size of an object.  For example, changing the unit of measure from metric to imperial, or vice versa, does not convert the drawing from one system of measurement to the other.  Nor will changing the unit from meter to millimeter, or parsec to angstrom. **It only changes the way the measurements a displayed on the status bar or as dimensions.**
 
 
 Length Format
 ~~~~~~~~~~~~~
 
 .. csv-table:: 
-    :widths: 15, 15, 15, 55
+    :widths: 15, 50, 15, 10, 10
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -241,7 +241,7 @@ Angle Format
 ~~~~~~~~~~~~
 
 .. csv-table:: 
-    :widths: 15, 15, 15, 55
+    :widths: 15, 50, 15, 10, 10
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
