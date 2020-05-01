@@ -211,7 +211,7 @@ Units
 LibreCAD supports several display formats for both linear and angular units, in both metric and imperial measures.  A subset of the formats can be used when entering values on the command line as indicated in the table below.  
 
 .. note::
-    Internally, LibreCAD is *measurement agnostic*. That is, it is indifferent to the unit of measure.  *One unit* of length will be one unit no matter what system measurement or unit of measure is used.  Changing the "Units" setting in :ref:`Drawing Preferences <draw_prefs>` **will not** convert a drawing to the new units of measure and retain the size of an object.  For example, changing the unit of measure from metric to imperial, or vice versa, does not convert the drawing from one system of measurement to the other.  Nor will changing the unit from meter to millimeter, or parsec to angstrom. **It only changes the way the measurements a displayed on the status bar or as dimensions.**
+    Internally, LibreCAD is *measurement agnostic*. That is, it is indifferent to the :ref:`unit of measure <measurements>`.  One unit of length will be one unit no matter what system measurement or unit of measure is used.  Changing the "Units" setting in the :ref:`Drawing Preferences <draw-prefs>` **will not** convert a drawing to the new units of measure and retain the size of an object.  For example, changing the unit of measure from metric to imperial, or vice versa, does not convert the drawing from one system of measurement to the other.  Nor will changing the unit from meter to millimeter, or parsec to angstrom. **It only changes the way the measurements a displayed on the status bar or as dimensions.**
 
 
 Length Format
