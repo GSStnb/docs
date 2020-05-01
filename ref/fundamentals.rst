@@ -218,7 +218,7 @@ Length Format
 ~~~~~~~~~~~~~
 
 .. csv-table:: 
-    :widths: 15, 50, 15, 10, 10
+    :widths: 15, 35, 15, 15, 10, 10
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
@@ -241,7 +241,7 @@ Angle Format
 ~~~~~~~~~~~~
 
 .. csv-table:: 
-    :widths: 15, 50, 15, 10, 10
+    :widths: 15, 35, 15, 15, 10, 10
     :header-rows: 1
     :stub-columns: 0
     :class: table-fix-width
