@@ -233,8 +233,16 @@ Length Format
 
 .. sup = superscript
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
+.. hint::
+   Imperial measures, feet and inches for example, are not natively recognized by LibreCAD's command line. In order to use imperial measures on the command line, the decimal equivalent of the measurement needs to be entered.  However, the calculation can be performed using the :ref:`command line <cmdline> calculator.  For example:
+
+        1'-2 7/16 can be entered as ``1*12+2+7/16`` (14.43112)
+        5yd 2' 3 3/8" can be entered as ``5*3*12 + 2*12 + 3 + 3/8`` (207.375)
+
+    The calculation can be done *in-line* when specifying a point:
+
+        In a Cartesian coordinate:  1*12+2+7/16,10
+        In a polar coordinate: 1*12+2+7/16<45
 
 
 Angle Format
@@ -253,8 +261,6 @@ Angle Format
 	"**Radians**", "The arc of a circle measured in lengths of the radius", "0.00000000r", "0.5r", "Yes", "No"
 	"**Surveyor's units**", "Cardinal directions measure in deg/min/sec from North and East", "N30d32'E", "N0d00'00.0000''E", "Yes", "No"
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 .. _entities: 
 
