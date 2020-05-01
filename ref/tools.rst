@@ -255,7 +255,7 @@ Select
 
 .. note::
 
-    When no drawing tool is active, the default [Left Button] mouse action is to:
+    When no drawing tool is active (mouse pointer |image30| is displayed), the default [Left Button] mouse action is to:
         - Select/deselect one or more entities by clicking on them, or
         - Select multiple entities with a window.  See **Select Window** below.
 
@@ -463,11 +463,21 @@ Others
     "Points", |icon99|, "po, point", "
         | Draw a point at the assigned coordinates."
 
-..
-    "Insert Image", |icon98|, "", "Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
+
+..  Image mapping (no "align" allowed/required):
+
+.. |image30| image:: /images/cursorPointer.png
+             :width: 40
+             :height: 40
+             :scale: 100
+             :alt: Mouse Pointer
 
 
 ..  Icon mapping:
+
+..
+    "Insert Image", |icon98|, "", "Insert an image, bitmapped or vector, at a specified point.  Optionally define angle, scale factor and DPI."
+
 
 .. |icon00| image:: /images/icons/librecad.ico
             :height: 24

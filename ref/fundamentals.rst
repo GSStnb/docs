@@ -203,6 +203,59 @@ As an example when using a polar coordinates, to place a point 100mm and 45 degr
 .. include:: /inclFiles/eoWrap.rst
 
 
+.. _units:
+
+Units
+-----
+
+LibreCAD support several display formats for both linear and angular units in both metric and imperial measures.  A subset of the formats can be used when entering values on the command line as indicated in the table below.  
+
+.. note::
+    Internally, LibreCAD is *measurement agnostic*. That is, it is indifferent to the unit of measure.  *One unit* of length will be one unit no matter what system measurement or unit of measure is used.  Changing the "Units" setting in :ref:`Drawing Preferences <draw_prefs>` **will not** convert a drawing to the new units of measure and retain the size of an object.  For example, changing the unit of measure from metric to imperial, or vice versa, does not convert the drawing from one system of measurment to the other.  Nor will changing the unit from metre to millimeter, or parsec to angstrom. **It only changes the way the measurements a displayed on the status bar or as dimensions.**
+
+
+Length Format
+~~~~~~~~~~~~~
+
+.. csv-table:: 
+    :widths: 15, 15, 15, 55
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+   
+    "Format", "Unit Description", "Maximum Precision", "Example", "Status Bar / Dimension", "Command Line Entry"
+    "**Scientific**", "Significant x 10 :superscript:`n`", "0.00000000E+1", "1.44311E+1", "Yes", "Yes"
+    "**Decimal**", "Integer part separated from the fractional part of a number by a decimal", "0.00000000", "14.43112", "Yes", "Yes"
+    "**Engineering**", "Feet and decimal inches", "0'-0.00000000”", "1'-2.43112”", "Yes", "No"
+    "**Architectural**", "Feet and fractional inches", "0'-0 1/128”", "1'-2 7/16”", "Yes", "No"
+    "**Fractional**", "Fractional inches", "1/128”", "14 7/16”", "Yes", "No"
+    "**Architectural (metric)**", "Decimal metric units (mm, cm, etc...)", "0.00000000", "14.43112", "Yes", "Yes"
+
+.. sup = superscript
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
+
+Angle Format
+~~~~~~~~~~~~
+
+.. csv-table:: 
+    :widths: 15, 15, 15, 55
+    :header-rows: 1
+    :stub-columns: 0
+    :class: table-fix-width
+
+    "Format", "Description", "Maximum Precision", "Example", "Status Bar / Dimension", "Command Line Entry"
+	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal", "Yes", "Yes"
+	"**Deg/Min/Sec**", "30 |deg| 32' 0”", "0 |deg| 00' 00.0000”", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( ”, 1/60 of a minute)", "Yes", "No"
+	"**Gradians**", "33.9g", "0.00000000g", "1/100 of a right angle", "Yes", "No"
+	"**Radians**", "0.5r", "0.00000000r", "The arc of a circle measured in lengths of the radius", "Yes", "No"
+	"**Surveyor's units**", "N30d32'E", "N0d00'00.0000''E", "Cardinal directions measure in deg/min/sec from North and East", "Yes", "No"
+
+.. Force end of left / right text wrap
+.. include:: /inclFiles/eoWrap.rst
+
 .. _entities: 
 
 .. _attributes: 
@@ -424,7 +477,7 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 
 .. note::
 
-    When no drawing tool is active, the arrow cursor |image30| is displayed and the default action within the drawing window is *select* (See **Selecting Entities** below).
+    When no drawing tool is active, the mouse pointer |image30| is displayed and the default action within the drawing window is *select* (See **Selecting Entities** below).
 
     When a :ref:`drawing tool <tools>` is active, a small crosshair cursor |image31| is displayed.  "Snap indicator lines" can also be configured in the :ref:`Application Preferences <app-prefs>` to make the cursor more visible.
 
@@ -614,7 +667,7 @@ See :ref:`Drawing an Isometric View <dwg-isometric>` in **Drawing and Editing** 
              :width: 40
              :height: 40
              :scale: 100
-             :alt: Pointer cursor
+             :alt: Mouse Pointer
 .. |image31| image:: /images/cursorCrosshair.png
              :width: 40
              :height: 40

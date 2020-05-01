@@ -70,58 +70,11 @@ Units
 
 The **Units** tab allows users to set the *Main drawing unit* to the preferred unit of measure and the format of linear and angular dimensions.  The "Main Unit" setting overrides the default set during LibreCAD's initial application :ref:`configuration <configure>`.  The same units of measures are as noted in the :ref:`appendix <measurements>` are available for the drawing's preferences.
 
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-.. note::
-
-   These preferences format the display of linear and angular units on the *status bar*.  They *do not* affect the appearance of dimensions in the drawing.  See :ref:`Dimensions <dimn-prefs>` below for configuring dimensions' format.
+The "Format" and "Precision" settings for"Length" and "Angle" format the display of linear and angular units on the *status bar*.  They *do not* affect the appearance of dimensions in the drawing.  See :ref:`Dimensions <dimn-prefs>` below for configuring dimensions' format.  Format and precision are described in **Fundamentals** in the :ref:`Units <units>` section.
 
 .. Force end of left / right text wrap
 .. include:: /inclFiles/eoWrap.rst
 
-
-Length Format
-~~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 15, 15, 15, 55
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-   
-    "Format", "Example", "Maximum Precision", "Description"
-    "**Scientific**", "1.44311E+1", "0.00000000E+1", "Significant x 10 :superscript:`n`"
-    "**Decimal**", "14.43112", "0.00000000",  "Integer part separated from the fractional part of a number by a decimal"
-    "**Engineering**", "1'-2.43112'' ", "0'-0.00000000'' ",  "Feet and decimal inches"
-    "**Architectural**", "1'-2 7/16'' ", "0'-0 1/128'' ",  "Feet and fractional inches"
-    "**Fractional**", "14 7/16'' ", "1/128'' ", "Fractional inches"
-    "**Architectural (metric)**", "14.43112 :sup:`5`", "0.00000000",  "Decimal metric units (mm, cm, etc...)"
-
-.. sup = superscript
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
-
-
-Angle Format
-~~~~~~~~~~~~
-
-.. csv-table:: 
-    :widths: 15, 15, 15, 55
-    :header-rows: 1
-    :stub-columns: 0
-    :class: table-fix-width
-
-    "Format", "Example", "Maximum Precision", "Description"
-	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal"
-	"**Deg/Min/Sec**", "30 |deg| 32' 0'' ", "0 |deg| 00' 00.0000'' ", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( '', 1/60 of a minute)"
-	"**Gradians**", "33.9g", "0.00000000g", "1/100 of a right angle"
-	"**Radians**", "0.5r", "0.00000000r", "SI unit of measure where the arc of a circle is measured by the length of the radius"
-	"**Surveyor's units**", "N30d32'E", "N0d00'00.0000''E", "Cardinal directions measure in deg/min/sec from North and East"
-
-.. Force end of left / right text wrap
-.. include:: /inclFiles/eoWrap.rst
 
 Grid
 ----
@@ -179,7 +132,8 @@ The dimension preferences affect how dimensions appear on the drawings.  Setting
     - Text & position: 
     - Extension lines: 
     - Dimension lines, arrows & ticks:
-    - Format units: setting for linear and angular dimensions.  These settings are independent of the preference defined in the :ref:`Drawing Prefences <draw-prefs>`.
+    - Format units: setting for linear and angular dimensions.  These settings are independent of the preference defined in the :ref:`Drawing Prefences <draw-prefs>`.  Format and precision are described in **Fundamentals** in the :ref:`Units <units>` section.
+
 
 .. table::
     :widths: 30, 70
