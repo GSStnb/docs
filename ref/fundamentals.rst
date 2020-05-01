@@ -223,7 +223,7 @@ Length Format
     :stub-columns: 0
     :class: table-fix-width
    
-    "Format", "Unit Description", "Maximum Precision", "Example", "Status Bar / Dimension", "Command Line Entry"
+    "Format", "Unit Description", "Maximum Precision", "Example", "Status Bar/ Dimension", "Command Line Entry"
     "**Scientific**", "Significant x 10 :superscript:`n`", "0.00000000E+1", "1.44311E+1", "Yes", "Yes"
     "**Decimal**", "Integer part separated from the fractional part of a number by a decimal", "0.00000000", "14.43112", "Yes", "Yes"
     "**Engineering**", "Feet and decimal inches", "0'-0.00000000”", "1'-2.43112”", "Yes", "No"
@@ -246,7 +246,7 @@ Angle Format
     :stub-columns: 0
     :class: table-fix-width
 
-    "Format", "Description", "Maximum Precision", "Example", "Status Bar / Dimension", "Command Line Entry"
+    "Format", "Description", "Maximum Precision", "Example", "Status Bar/ Dimension", "Command Line Entry"
 	"**Decimal Degrees**", "30.5 |deg|", "0.00000000", "Integer part separated from the fractional part of a number by a decimal", "Yes", "Yes"
 	"**Deg/Min/Sec**", "30 |deg| 32' 0”", "0 |deg| 00' 00.0000”", "Degrees [ |deg| ] / Minutes ( ', 1/60 of a degree) / Seconds ( ”, 1/60 of a minute)", "Yes", "No"
 	"**Gradians**", "33.9g", "0.00000000g", "1/100 of a right angle", "Yes", "No"
