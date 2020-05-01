@@ -26,17 +26,17 @@ File
     :class: table-fix-width
 
     "Menu Item", "Icon", "Short-cut", "Description"
-    "New", |icon01|, "[Ctrl]+n", "Creates a new drawing file."
+    "New", |icon01|, "[Ctrl]+[N]", "Creates a new drawing file."
     "New from Template", |icon02|, "", "Creates a new drawing file from a template.  See :ref:`Templates <ug-templates>` in **User Guides** for details."
-    "Open", |icon03|, "[Ctrl]+o", "Open existing drawing file."
-    "Save", |icon04|, "[Ctrl]+s", "Save current drawing file."
-    "Save as", |icon05|, "[Ctrl] [Shift]+s ", "Save current drawing file to a different location or with a new file name."
+    "Open", |icon03|, "[Ctrl]+[O]", "Open existing drawing file."
+    "Save", |icon04|, "[Ctrl]+[S]", "Save current drawing file."
+    "Save as", |icon05|, "[Ctrl] [Shift]+[S] ", "Save current drawing file to a different location or with a new file name."
     "Import", |icon06|, "", "Import a :ref:`block <blocks>`, or bit mapped or vector images into the current drawing.  Supported bit mapped formats include: bmp, cur, gif, ico, jpeg, pbm, pgm, png, ppm, xbm, and xpm.  Vector images supported include svg, and svgz."
-    "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ''CAM'' export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
-    "Print", |icon08|, "[Ctrl]+p  ", "Produce output of the current drawing.  See :ref:`Printing <complete&print>` in the **User Guides** section."
+    "Export", |icon07|, "", "Export the current drawing as a CAM, pdf or image file. Supported bitmapped formats include: cur, jpeg, pbm, pgm, png, ppm, bmp, ico, xbm, and xpm.  Vector images supported include svg, and svgz.  Use the ”CAM” export to save SVG (Scalable Vector Graphics) suitable for MakerCAM, EleskCAM, LaserWeb, ..."
+    "Print", |icon08|, "[Ctrl]+[P]  ", "Produce output of the current drawing.  See :ref:`Printing <complete&print>` in the **User Guides** section."
     "Print Preview", |icon09|, "", "View output on screen of the current drawing."
-    "Close", |icon10|, "[Ctrl]+w", "Close the active drawing."
-    "Quit", |icon11|, "[Ctrl]+q", "Close the application."
+    "Close", |icon10|, "[Ctrl]+[W]", "Close the active drawing."
+    "Quit", |icon11|, "[Ctrl]+[Q]", "Close the application."
     "Recent Files", , "", "Open existing drawing file from a list of previously opened drawing files."
 
 
@@ -53,7 +53,7 @@ Options
     "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-prefs>` for details."
     "Widget Options", , "", "See :ref:`Widget Options <widget-options>` for in **Customizing** details."
     "Device Options", , "", "Select input device: mouse, tablet, trackpad or touchscreen."
-    "Reload Style Sheet", , "[Ctrl]+t", "See :ref:`Style Sheets <style-sheets>` in **Customizing** for details."
+    "Reload Style Sheet", , "[Ctrl]+[T]", "See :ref:`Style Sheets <style-sheets>` in **Customizing** for details."
 
  
 .. _edit:
@@ -68,11 +68,11 @@ Edit
 
     "Menu Item", "Icon", "Short-cut / *Command*", "Description"
     "Selection Pointer", |icon18|, "[Esc] / *k, kill*", "Deselects all selected entities and/or cancels the current operation."
-    "Undo", |icon19|, "[Ctrl]+z / *u, undo, oo*", "Sequentially reverses the previous operations."
-    "Redo", |icon20|, "[Ctrl]+[Shift]+z / *r, redo, uu*", "Sequentially reverses the previously reversed operations."
-    "Cut", |icon21|, "[Ctrl]+x", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ''clipboard'' for later recall.  A reference point needs to be placed for subsequent paste operations."
-    "Copy", |icon22|, "[Ctrl]+c", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
-    "Paste", |icon23|, "[Ctrl]+v", "Recalls the entity (or entities) from temporary memory and place it at a location defined by a reference point."
+    "Undo", |icon19|, "[Ctrl]+[Z] / *u, undo, oo*", "Sequentially reverses the previous operations."
+    "Redo", |icon20|, "[Ctrl]+[Shift]+[Z] / *r, redo, uu*", "Sequentially reverses the previously reversed operations."
+    "Cut", |icon21|, "[Ctrl]+[X]", "Removes the selected entity (or entities) and places it in temporary memory, e.g. ”clipboard” for later recall.  A reference point needs to be placed for subsequent paste operations."
+    "Copy", |icon22|, "[Ctrl]+[C]", "Creates a copy of the selected entity (or entities) in temporary memory to be recalled.  A reference point needs to be placed for subsequent paste operations."
+    "Paste", |icon23|, "[Ctrl]+[V]", "Recalls the entity (or entities) from temporary memory and place it at a location defined by a reference point."
     "Delete Selected", |icon24|, "[Del]", "Removes the selected entity (or entities) from the current drawing."
 
 
