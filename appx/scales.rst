@@ -62,11 +62,11 @@ Engineer's scale (Imperial)
     :class: table-fix-width
 
     "Drawing Scale", "Ratio", "Common Use"
-    "1″=10′-0″", "120", "Details"
-    "1″=20′-0″", "240", "Details / Working plans"
-    "1″=30′-0″", "360", "Working plans"
-    "1″=40′-0″", "480", "Working plans"
-    "1″=50′-0″", "600", "Working plans"
-    "1″=60′-0″", "720", "Working plans"
-    "1″=100′-0″", "1200", "Area plans"
+    "1″=10′-0″", "1:120", "Details"
+    "1″=20′-0″", "1:240", "Details / Working plans"
+    "1″=30′-0″", "1:360", "Working plans"
+    "1″=40′-0″", "1:480", "Working plans"
+    "1″=50′-0″", "1:600", "Working plans"
+    "1″=60′-0″", "1:720", "Working plans"
+    "1″=100′-0″", "1:1200", "Area plans"
 
