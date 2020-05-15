@@ -487,6 +487,9 @@ Entities' coordinates can also be located graphically using a mouse or other poi
 
     When a :ref:`drawing tool <tools>` is active, a small crosshair cursor |image31| is displayed.  "Snap indicator lines" can also be configured in the :ref:`Application Preferences <app-prefs>` to make the cursor more visible.
 
+.. hint::
+   Pressing [Shift] while drawing *2 Points* lines with the mouse will constrain the cursor to a multiple of 15|deg| intervals; 15, 30, 45|deg|, etc.  Ensure the *Snap on grid* is off when using this feature.
+
 
 .. _keyboard:
 
