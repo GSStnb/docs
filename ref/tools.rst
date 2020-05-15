@@ -259,7 +259,7 @@ Select
         - Select/deselect one or more entities by clicking on them, or
         - Select multiple entities with a window.  See **Select Window** below.
 
-    See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on select and deselecting entities.
+    See :ref:`Selecting Entities <entity-select>` in **Fundamentals** for more details on selecting and deselecting entities.
 
 
 .. csv-table:: 
