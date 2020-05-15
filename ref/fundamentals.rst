@@ -239,10 +239,10 @@ Length Format
         | 1' 2 7/16" can be entered as ``1*12 + 2 + 7/16`` (14.43112)
         | 5yd 2' 3 3/8" can be entered as ``5*3*12 + 2*12 + 3 + 3/8`` (207.375)
 
-    The calculation can be done *in-line* when specifying a point:
+    The calculation can also be done *in-line* when specifying a point, for example:
 
-        | As a Cartesian coordinate:  1*12+2+7/16,10
-        | As a polar coordinate: 1*12+2+7/16<45
+        | As a Cartesian coordinate:  ``1*12+2+7/16,10``
+        | As a polar coordinate: ``1*12+2+7/16<45``
 
 
 Angle Format
