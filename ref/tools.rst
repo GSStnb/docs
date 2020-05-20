@@ -371,9 +371,9 @@ Modify
     "Revert direction", |icon75|, "revert", "
         | Swap start and end points of one or more selected entities."
     "Trim",  |icon76| , "tm, trim", "
-        | Cut the length of a line entity to an intersecting line entity."
+        | Cut or extend the length of a line entity to an intersecting entity (line, circle, etc.)."
     "Trim Two",  |icon77| , "t2, tm2", "
-        | Cut the lengths of two intersecting lines to the point of intersection."
+        | Cut or extend the lengths of two non-parallel lines to the point of intersection."
     "Lengthen",  |icon78| , "le", "
         | Extend the length of a line entity to an intersecting line entity.
         | 
