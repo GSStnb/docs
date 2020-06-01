@@ -40,6 +40,10 @@ Download Installation Packages
     | | - OpenSUSE                | | https://software.opensuse.org/package/librecad                        |
     +-----------------------------+-------------------------------------------------------------------------+
 
+.. note::
+
+    **GitHub** hosts the installation packages for the most recent release of LibreCAD for MS Windows, v2.2.0 RC.  **SourceForge** hosts the most recent release for OSX and the "NightlyBuilds" for MS Windows.  The installation packages in "NightlyBuilds" for MS Windows represent the cutting-edge version of LibreCAD that includes bug fixes and possibly new features.
+
 
 .. _help:
 
