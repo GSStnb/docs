@@ -50,7 +50,7 @@ Options
 
     "Menu Item", "Icon", "Short-cut", "Description"
     "Application Preferences", |icon13|, "", "See :ref:`Application Preferences <app-prefs>` in **Getting Started** for details."
-    "Current Drawing Preferences", |icon14|, "", "See :ref:`Drawing Preferences <draw-prefs>` for details."
+    "Current Drawing Preferences", |icon14|, "dp, drawpref", "See :ref:`Drawing Preferences <draw-prefs>` for details."
     "Widget Options", , "", "See :ref:`Widget Options <widget-options>` for in **Customizing** details."
     "Device Options", , "", "Select input device: mouse, tablet, trackpad or touchscreen."
     "Reload Style Sheet", , "[Ctrl]+[T]", "See :ref:`Style Sheets <style-sheets>` in **Customizing** for details."

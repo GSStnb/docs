@@ -34,7 +34,7 @@ Line
         |
         | **Tool Options:** 
         | |tlopt14|"
-    "Angle", |icon02|, "", "
+    "Angle", |icon02|, "la, lineangled", "
         | Draw a line from an assigned point defining the start, middle or end of the line and with an assigned length and angle.
         | 
         | **Tool Options:** 
@@ -67,26 +67,26 @@ Line
         | |tlopt09|"
     "Tangent (P,C)", |icon10|, "tanpc, tangentpc", "
         | Draw a line from an assigned point tangent to an existing circle."
-    "Tangent (C,C)", |icon11|, "", "
+    "Tangent (C,C)", |icon11|, "tancc, tangentcc", "
         | Draw a line tangent to two existing circles."
-    "Tangent Orthogonal", |icon12|, "", "
+    "Tangent Orthogonal", |icon12|, "tanoc, tangentoc", "
         | Draw a line tangent to an existing circle and perpendicular to an existing line."
     "Orthogonal", |icon13|, "ortho, perp", "
         | Draw a line of a given length perpendicular to an existing line placing the centre at an assigned point.
         | 
         | **Tool Options:** 
         | |tlopt11|"
-    "Relative Angle", |icon14|, "", "
+    "Relative Angle", |icon14|, "lr, linerel", "
         | Draw a line with a given length and at a given angle relative to an existing line placing the centre of the line at an assigned point.
         | 
         | **Tool Options:** 
         | |tlopt08|"
-    "Polygon (Cen,Cor)", |icon15|, "pl, polyline", "
+    "Polygon (Cen,Cor)", |icon15|, "pcp, polycp, polygoncencor", "
         | Draw a polygon with a given number of sides assigning the centre point and point of one vertex.
         | 
         | **Tool Options:** 
         | |tlopt15|"
-    "Polygon (Cen,Tan)", |icon16|, "", "
+    "Polygon (Cen,Tan)", |icon16|, "polyct, polygoncentan", "
         | Draw a polygon with a given number of sides assigning the centre point and point of the centre of one side.
         | 
         | **Tool Options:** 
@@ -114,23 +114,23 @@ Circle
         | Draw a circle with a given radius by assigning a centre point and a point on the circumference."
     "2 Points", |icon20|, "c2, circle2", "
         | Draw a circle with a given diameter by assigning two opposite points on the circumference."
-    "2 Points, Radius", |icon21|, "", "
+    "2 Points, Radius", |icon21|, "c2r, c2pr, circle2pr", "
         | Draw a circle with two points on the circumference and with an assigned radius.
         | 
         | **Tool Options:** 
         | |tlopt01|"
     "3 Points", |icon22|, "c3, circle3", "
         | Draw a circle assigning three points on the circumference."
-    "Centre, Radius", |icon19|, "", "
+    "Centre, Radius", |icon19|, "cc, ccr, circlecr", "
         | Draw a circle with a given radius centred at an assigned point on the circumference.
         | 
         | **Tool Options:** 
         | |tlopt01|"
-    "Tangential, 2 Circles, 1 Point", |icon26|, "", "
+    "Tangential, 2 Circles, 1 Point", |icon26|, "c2tp, circle2tan1p", "
         | Draw a circle tangential to two existing circles and assigning a centre point to establish the radius."
-    "Tangential, 2 Points", |icon27|, "", "
+    "Tangential, 2 Points", |icon27|, "ct2p, circle1tan2p", "
         | Draw a circle tangential to an existing circle and define the diameter and placement by assigning two points on the circumference."
-    "Tangential, 2 Circles, Radius", |icon28|, "", "
+    "Tangential, 2 Circles, Radius", |icon28|, "c2tr, circle2tanr", "
         | Draw a circle tangential to two existing circles with a given radius.
         | 
         | **Tool Options:** 
@@ -154,14 +154,14 @@ Curve
     :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
-    "Center, Point, Angles", |icon30|, "", "
+    "Center, Point, Angles", |icon30|, "apr, arcpr", "
         | Draw a curve (arc) with a given radius defined by a center point and a point on the circumference, the direction of rotation (clockwise or counter-clockwise), a point defining the start position of the arc and a point defining the end position of the arc.
         | 
         | **Tool Options:** 
         | |tlopt03|"
     "3 Points", |icon32|, "a, ar, arc", "
         | Draw a curve (arc) by assigning three points on the circumference of the arc defining the start position, a point on the circumference and end position of the arc."
-    "Arc Tangential", |icon34|, "", "
+    "Arc Tangential", |icon34|, "at, arctan", "
         | Draw a curve (arc) tangential to the end of an existing line segment with a defined radius or angle (deg).
         | 
         | **Tool Options:** 
@@ -178,8 +178,8 @@ Curve
         | 
         | **Tool Options:** 
         | |tlopt23|"
-    "Ellipse Arc (Axis)", |icon36|, "", "
-        | N/A"
+    "Ellipse Arc (Axis)", |icon36|, "ae, arcell", "
+        | Draw an elliptical curve (arc) defined by a center point, length ot major and minor axes and a point defining the start position of the arc and a point defining the end position of the arc."
     "Freehand Line", |icon05|, "fhl, free", "
         | Draw a non-geometric line."
 ..
@@ -198,13 +198,13 @@ Ellipse
     :class: table-fix-width
 
     "Tool", "Icon", "Command", "Description"
-    "Ellipse (Axis)", |icon35|, "", "
+    "Ellipse (Axis)", |icon35|, "ea, elax, ellipseaxis", "
         | Draw an ellipse by assigning a centre point, a point on the circumference of major access and a point on the circumference the minor access."
-    "Ellipse Foci Point", |icon37|, "", "
+    "Ellipse Foci Point", |icon37|, "ef, elf, ellipsefoci", "
         | Draw an ellipse by assigning two foci points and a point  on the circumference."
-    "Ellipse 4 Point", |icon38|, "", "
+    "Ellipse 4 Point", |icon38|, "e4, el4p, ellipse4p", "
         | Draw an ellipse assigning four points on the circumference."
-    "Ellipse Center and 3 Points", |icon39| , "", "
+    "Ellipse Center and 3 Points", |icon39| , "ec3p, elc3p, ellipsec3p, c3po", "
         | Draw an ellipse by assigning a centre point three points on the circumference."
     "Ellipse Inscribed", |icon40| , "ei, ie", "
         | Draw a Ellipse constrained by four existing non-parallel line segments."
@@ -229,23 +229,23 @@ Polyline
         | |tlopt19|
         | Options include Line and for curved segments; Tangential, Tan Radius and Angle."
 
-    "Add node", |icon44|, "", "
+    "Add node", |icon44|, "pladd, pladdnode", "
         | Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
-    "Append node", |icon45|, "", "
+    "Append node", |icon45|, "plapp, plappnode", "
         | Add one or more segments to an existing polyline by selecting polyline and adding new node endpoint."
-    "Delete node", |icon46|, "", "
+    "Delete node", |icon46|, "pldeln, pldelnode", "
         | Delete selected node of an existing polyline."
-    "Delete between two nodes", |icon47|, "", "
+    "Delete between two nodes", |icon47|, "pldelseg, pldelbtwn", "
         | Delete one or more nodes between selected nodes of an existing polyline."
-    "Trim segments", |icon48|, "", "
+    "Trim segments", |icon48|, "pltr, pltrimseg", "
         | Extend two separate non-parallel segments of an existing polyline to intersect at a new node."
-    "Create Equidistant Polylines", |icon49|, "", "
+    "Create Equidistant Polylines", |icon49|, "plpa, plo, plparallel", "
         | Draw a given number of polylines parallel to a selected existing polyline with a given distance between lines.
         | 
         | **Tool Options:** 
         | |tlopt20|"
-    "Create Polyline from Existing Segments", |icon50|, "", "
-        | Create polyline from two or more existing separate line or arc segments forming a continuous line."
+    "Create Polyline from Existing Segments", |icon50|, "join, pljoin", "
+        | Create polyline from two or more selected line or arc segments forming a continuous line."
 
 
 .. _tool-select:
@@ -287,7 +287,7 @@ Select
         | Deselect one or more entities crossed by selection line."
     "(De-)Select Layer", |icon57|, "", "
         | Select or deselected all entities on the layer of the selected entity."
-    "Invert Selection", |icon60|, "", "
+    "Invert Selection", |icon60|, "is, si, invertselect", "
         | Select all un-selected entities will deselecting all selected entities."
 
 
@@ -379,7 +379,7 @@ Modify
         | 
         | **Tool Options:** 
         | |tlopt18|"
-    "Offset",  |icon79| , "o, pa, offset, parallel", "
+    "Offset",  |icon79| , "modoff", "
         | Copy a selected entity to a defined distance in the specified direction."
     "Bevel", |icon80|, "ch, bevel", "
         | Create a sloping edge between two intersecting line segments with defined by a setback on each segment.
