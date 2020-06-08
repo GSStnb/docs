@@ -67,15 +67,14 @@ Fonts
 Converting Fonts
 ----------------
 
-LibreCAD includes a utility to convert "TrueType" fonts to LibreCAD font file/format (*.lff). 
+LibreCAD includes a utility, "ttf2lff",  to convert "TrueType" fonts to LibreCAD font file/format (*.lff).  ttf2lff is located in th same directory as the LibreCAD executable and the location varies by operating system.  For Microsoft Windows, ttf2lff is located in C:\\Program Files\\LibreCAD\\". 
 
+    #. Open a console/terminal to access the command line.
+    #. At the command prompt type the following command and press [Enter]::
 
-#. Open a console/terminal: click in "start_button->run" and type "cmd.exe" in the opened window.
-#. In "console window" type the following comand and press cd c:\myprograms\ttf2lff
-#. You are ready to use, to convert arial.ttf (p.e.) located in windows font directory type:
-ttf2lff.exe c:\windows\fonts\arial.ttf arial.lff
-#. to use the arial.lff file created copy or move it to a LC fonts folder. 
-ttf2lff MYFREEFONT.TTF MYFREEFONT.LFF
+        PathTottf2lff\ttf2lff PathTo\\TrueTypeFontName.ttf LibreCADFontName.lff
+
+    #. Copy or move the new font to the LibreCAD fonts folder.  Refer to :ref:`Application Preferences <app-prefs>` in **Configure** section of **Getting Started**.
 
 
 .. figure:: /images/fonts/appx_Fonts.png
