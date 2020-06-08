@@ -76,6 +76,7 @@ Command input can be combined and entered on a single line by separating the com
 
 Command input can also be loaded from text files.  Entering the commands and other input into a text file separating each with a newline.  For example, create a text file and enter the following commands::
 
+    # Draw a 10 x 10 square
     li
     0,0
     @10,0
@@ -84,7 +85,7 @@ Command input can also be loaded from text files.  Entering the commands and oth
     c
     k
 
-Save the file as "multiCmd.txt".  In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button.  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.
+Save the file as "multiCmd.txt".  In LibreCAD select "Load Command File" from the the drop-down menu by clicking the command line button.  Locate the file and click the **Open** button.  The above commands will draw a 10 x 10 square.  Comments can be inserted into the file by starting a comment line with a '#', as shown above. 
 
 Multi-command input can be assigned to a variable and variables can also contain other variables (they are read recursively)::
 
