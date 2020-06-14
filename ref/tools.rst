@@ -238,7 +238,6 @@ The **Polyline** tools are used to create open or closed objects consisting of s
         | **Tool Options:** 
         | |tlopt19|
         | Options include Line and for curved segments; Tangential, Tan Radius and Angle."
-
     "Add node", |icon44|, "pladd, pladdnode", "
         | Add node to existing polyline. (Use ""Snap on Entity"" to place new node on segment.)"
     "Append node", |icon45|, "plapp, plappnode", "
