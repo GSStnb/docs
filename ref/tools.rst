@@ -22,6 +22,8 @@ Several drawing tools have options or require additional parameters that appear 
 Line
 ----
 
+The **Line** tools are used to create individual straight entities - a line - or multi-sided entities of individual line segments (other than the *Rectangle*, which is a *polyline* - see below). 
+
 .. csv-table::  
     :widths: 15, 7, 15, 63
     :header-rows: 1
@@ -103,6 +105,8 @@ Line
 Circle
 ------
 
+The **Circle** tools are used to create *closed curved* entities with a single center point.
+
 .. csv-table:: 
     :widths: 15, 7, 15, 63
     :header-rows: 1
@@ -147,6 +151,8 @@ Circle
 Curve
 -----
 
+The **Curve** tools are used to create *opened curved* entities with a single center point (simple arc) or two *foci* points (elliptical arc).  The Curve category also includes the *Spline* tools - curves defined by two or more points - and the *Freehand Line* tool.
+
 .. csv-table:: 
     :widths: 15, 7, 15, 63
     :header-rows: 1
@@ -179,7 +185,7 @@ Curve
         | **Tool Options:** 
         | |tlopt23|"
     "Ellipse Arc (Axis)", |icon36|, "ae, arcell", "
-        | Draw an elliptical curve (arc) defined by a center point, length ot major and minor axes and a point defining the start position of the arc and a point defining the end position of the arc."
+        | Draw an elliptical curve (arc) defined by a center point, length of major and minor axes and a point defining the start position of the arc and a point defining the end position of the arc."
     "Freehand Line", |icon05|, "fhl, free", "
         | Draw a non-geometric line."
 ..
@@ -190,6 +196,8 @@ Curve
 
 Ellipse
 -------
+
+The **Ellipse** tools are used to create *closed curved* entities with a two *focal* points.
 
 .. csv-table:: 
     :widths: 15, 7, 15, 63
@@ -214,6 +222,8 @@ Ellipse
 
 Polyline
 --------
+
+The **Polyline** tools are used to create open or closed objects consisting of straight or curved *connected* segments.  All segments that create the polyline are treated as a single entity.  *Closed* polylines are created when the final segment is connected to the first segment of the polyline.
 
 .. csv-table:: 
     :widths: 15, 7, 15, 63
@@ -252,6 +262,8 @@ Polyline
 
 Select
 ------
+
+The **Select** tools are used to select or deselect one or more entities.
 
 .. note::
 
@@ -295,6 +307,8 @@ Select
 
 Dimension
 ---------
+
+The **Dimension** tools are used to *annotate* a drawing by labelling the length, width, height, and/or angle of a line entity, the diameter of circle entity, or radius of arc entity.  Refer to :ref:`Annotating a Drawing <annotate>` in the **User Guides** for more details.
 
 .. csv-table:: 
     :widths: 15, 7, 15, 63
@@ -346,6 +360,8 @@ Dimension
 
 Modify
 ------
+
+The **Modify** tools are used to change and alter one or more existing entities, individually or in groups.
 
 .. csv-table:: 
     :widths: 15, 7, 15, 63
@@ -415,6 +431,8 @@ Modify
 Info
 ----
 
+The **Info** tools are used to obtain information about selected entities.
+
 .. csv-table:: 
     :widths: 15, 7, 15, 63
     :header-rows: 1
@@ -440,6 +458,8 @@ Info
 
 Others
 ------
+
+The tools in the **Other** category are individually described below.
 
 .. csv-table:: 
     :widths: 15, 7, 15, 63
