@@ -619,28 +619,28 @@ The tools in the **Other** category are individually described below.
 .. |icon42| image:: /images/icons/spline_points.svg
             :height: 24
             :width: 24
-.. |icon43| image:: /images/icons/polylines.svg
+.. |icon43| image:: /images/icons/polylines_polyline.svg
             :height: 24
             :width: 24
-.. |icon44| image:: /images/icons/polylineadd.png
+.. |icon44| image:: /images/icons/insert_node.svg
             :height: 24
             :width: 24
-.. |icon45| image:: /images/icons/polylineappend.png
+.. |icon45| image:: /images/icons/append_node.svg
             :height: 24
             :width: 24
-.. |icon46| image:: /images/icons/polylinedel.png
+.. |icon46| image:: /images/icons/delete_node.svg
             :height: 24
             :width: 24
-.. |icon47| image:: /images/icons/polylinedelbetween.png
+.. |icon47| image:: /images/icons/delete_between_nodes.svg
             :height: 24
             :width: 24
 .. |icon48| image:: /images/icons/polylinetrim.png
             :height: 24
             :width: 24
-.. |icon49| image:: /images/icons/polylineequidstant.png
+.. |icon49| image:: /images/icons/create_equidistant_polyline.svg
             :height: 24
             :width: 24
-.. |icon50| image:: /images/icons/polylinesegment.png
+.. |icon50| image:: /images/icons/create_polyline_from_existing_segments.svg
             :height: 24
             :width: 24
 .. |icon51| image:: /images/icons/select_entity.svg
@@ -700,10 +700,10 @@ The tools in the **Other** category are individually described below.
 .. |icon69| image:: /images/icons/move_copy.svg
             :height: 24
             :width: 24
-.. |icon70| image:: /images/icons/move_rotate.svg
+.. |icon70| image:: /images/icons/rotate.svg
             :height: 24
             :width: 24
-.. |icon71| image:: /images/icons/rotate2.svg
+.. |icon71| image:: /images/icons/scale.svg
             :height: 24
             :width: 24
 .. |icon72| image:: /images/icons/mirror.svg
@@ -761,7 +761,7 @@ The tools in the **Other** category are individually described below.
 .. |icon90| image:: /images/icons/distance_point_to_point.svg
             :height: 24
             :width: 24
-.. |icon91| image:: /images/icons/distance_point_to_point.svg
+.. |icon91| image:: /images/icons/distance_point_to_entity.svg
             :height: 24
             :width: 24
 .. |icon92| image:: /images/icons/angle_line_to_line.svg
